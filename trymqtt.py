@@ -31,8 +31,7 @@ client.connect("82.165.16.151 -t UCC/pihealth", 1883, 60)
 
 #To take in the Identity of the Client
 user = str(input("Enter your Name: "))
-mgs= mgs    
-#Loop to test the Instantiations
+
 
 while True:
     mgs =[{"topic": "paho/test/multiple", "payload":"multiple 1"}]
